@@ -635,7 +635,7 @@ hr {
 }
 
 
-.top-nft .top-button {
+.top-button {
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     /* background: linear-gradient(269deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%); */
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
@@ -646,7 +646,7 @@ hr {
     
 }
 
-.top-nft .top-button a {
+.top-button a {
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 700;
@@ -750,7 +750,7 @@ hr {
 .explore {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     color: white;
     background-color: #241043;
 }
@@ -762,11 +762,16 @@ hr {
     font-size: 18.0606px;
     line-height: 21px;
     color: #FFFFFF;
+    padding: 1.5rem 1.6rem;
+    padding-bottom: 0;
 }
 
 .explore .explore-block {
     border: 1px solid rgba(255, 255, 255, 0.28);
-    margin: 1rem;
+    margin: 4% 1% 0% 0%;
+    position: relative;
+    right: 10px;
+    top: 1px;
 }
 
 .explore .explore-up {
@@ -780,11 +785,15 @@ hr {
     flex-grow: 1;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
     /* backdrop-filter: blur(27.4188px); */
+    padding-bottom: 2.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .explore .explore-down .explore-icon {
     position: relative;
-    bottom: 3rem ;
+    bottom: 71px;
+    left: 2px;
+    height: 44px;
 }
 
 .explore .explore-down .explore-icon img {
@@ -796,8 +805,12 @@ hr {
     font-style: normal;
     font-weight: 500;
     font-size: 16.8391px;
-    line-height: 32px;
+    /* line-height: 32px; */
     color: #FFFFFF;
+    position: relative;
+    top: 3px;
+    left: 2px;
+    height: 3px;
 }
 
 .explore .explore-down .explore-veryf {
@@ -812,10 +825,15 @@ hr {
     font-size: 13.9587px;
     line-height: 32px;
     color: #FFB1EE;
+    position: relative;
+    top: 2px;
+    left: 7px;
 }
 
 .explore .explore-down .explore-veryf img {
-
+    position: relative;
+    bottom: 7px;
+    left: 10px;
 }
 
 .explore .explore-down .explore-folow {
@@ -825,34 +843,42 @@ hr {
     flex-grow: 1;
 }
     
-.explore .explore-down .folow-up{
+.explore .explore-down .explore-folow{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    bottom: 3px;
+    right: 0px;
+    
 }
 
-.explore .explore-down .folow-up .up-text{
+.explore .explore-down .folow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.4rem;
+}
+
+.explore .explore-down .folow .up-text{
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
     font-size: 21.9417px;
-    line-height: 44px;
-    /* padding: 1%; */
+    margin-bottom: 0;
     color: #FFFFFF;
 }
 
-.explore .explore-down .folow-down{
-    display: flex;
-    justify-content: space-between;
-}
 
-.explore .explore-down .folow-down .down-text{
+.explore .explore-down .folow .down-text{
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 500;
     font-size: 13.7136px;
-    line-height: 44px;
     color: #FFFFFF;
     opacity: 0.7;
+    position: relative;
+    bottom: 5px;
 }
 
 .explore .explore-down .explore-button {
@@ -865,7 +891,7 @@ hr {
     transform: matrix(-1, 0, 0, 1, 0, 0);
     /* border-radius: 50px 0px ; */
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 3% 13%;
+    padding: 0.5rem 4rem;
     text-decoration: none;
     color: white;
     font-family: 'Rajdhani';
@@ -874,15 +900,27 @@ hr {
     font-size: 13.7774px;
     line-height: 18px;
     color: #FFFFFF;
+    position: relative;
+    top: 6px;
+    left: 4px;
 }
 
 
 .seller {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 4.4rem 1.5rem 0;
     color: white;
     background-color: #241043;
+}
+
+.seller .seller-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    right: 4px;
 }
 
 
@@ -919,15 +957,47 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.28) ;
     border-radius: 20.7108px;
     justify-content: space-evenly;
+    position: relative;
+    top: 12px;
+    left: 6px;
+    max-width: 97%;
+    margin-bottom: 1.6rem;
 }
 
+.seller .seller-item .seller-listnum {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.8072px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+
+.seller .seller-item img {
+    position: relative;
+    top: 1px;
+    left: 3px;
+}
+
+
 .seller .seller-item .seller-name {
-    
+    position: relative;
+    bottom: 4px;
+    right: 11px;
 }
 
 .seller .seller-item .seller-name .seller-eth {
     display: flex;
     align-items: center;
+}
+
+.seller .seller-item .seller-eth img {
+    position: relative;
+    top: -7px;
+    left: 8px;
 }
 
 .seller .seller-name .seller-surname {
@@ -937,6 +1007,9 @@ hr {
     font-size: 13.8072px;
     line-height: 32px;
     color: #FFFFFF;
+    position: relative;
+    top: 20px;
+    left: 9px;
 }
 
 .seller .seller-name .seller-number {
@@ -944,8 +1017,11 @@ hr {
     font-style: normal;
     font-weight: 500;
     font-size: 9.97186px;
-    line-height: 32px;
+    line-height: 23px;
     color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 1px;
+    left: 11px;
 }
 
 .seller .seller-light {
@@ -955,9 +1031,13 @@ hr {
     font-style: normal;
     font-weight: 500;
     font-size: 10.6564px;
-    line-height: 34px;
+    /* line-height: 34px; */
     color: #FF0000;
-    border: 1px solid rgba(235, 20, 20, 0.15) ;
+    border: 1px solid rgba(235, 20, 20, 0.15);
+    padding: 1% 4%;
+    position: relative;
+    top: 14px;
+    right: 1px;
 
 }
 

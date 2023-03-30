@@ -3,262 +3,57 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Swiper demo</title>
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;500;800&family=Lato:wght@700&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  
+  <title>Trash</title>
+  <!-- <link rel="stylesheet" href="css/index.css"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
   <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
+ .poligon {
+  display: inline-block;
+  position: relative;
+  width: 133px;
+  height: 34px;
+  background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  box-sizing: border-box;
+  clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+  border-radius: 1.17972px;
+}
+.poligon a{
+  position: absolute;
+  top: 2px; 
+  left: 2px; 
+  width: 130px; 
+  height: 30px;    
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  background: linear-gradient(265deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  border-radius: 1.17972px;
+}
 
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-    swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-
-    swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    swiper-slide {
-      width: 80%;
-    }
-
-    swiper-slide:nth-child(2n) {
-      width: 80%;
-    }
-
-    swiper-slide:nth-child(3n) {
-      width: 80%;
-    }
+a:hover {
+    filter: invert();
+ }
   </style>
 </head>
 
 <body>
 
-  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
-    centered-slides="true" space-between="30">
-    <swiper-slide>
-      <div class="first-block">
-
-        <div class="block-pic">
-
-            <img src="img/top-nft/nft-pic.png" alt="">
-
-        </div>
-
-        <div class="block-nft">
-
-            <div class="info-left">
-
-                <div >
-                    <p class="info-title">Apollo Eth #1289 NFT</p>
-                </div>
-
-                <div class="info-acc">
-                    <img src="img/first-block/icon.png" alt="">
-                    <p>@jhonartist</p>
-                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
-                </div>
-
-                <div >
-                    <p class="info-rev">Reserve price</p>
-                </div>
-
-                <div class="info-price">
-                    <img src="img/first-block/eth.png" alt="">
-                    <p class="price-left">ETH 9.31</p>
-                    <p class="price-right">($29,8846)</p>
-                </div>
-                
-            </div>
-
-            <div class="info-right">
-
-                <div >
-                    <p class="info-rev">Auction Ends in</p>
-                </div>
-
-                <div id="info-timer" class="info-timer">
-
-                    <div id="timer-up" class="timer-up">
-                        <p class="up-text">18</p>
-                        <p class="up-text">25</p>
-                        <p class="up-text">44</p>
-                    </div>
-
-                    <div class="timer-down">
-                        <p class="down-text">Hours</p>
-                        <p class="down-text">Mins</p>
-                        <p class="down-text">Secs</p>
-                    </div>
-
-                    <a class="info-button">Place Bid</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    </swiper-slide>
-    <swiper-slide>
-      <div class="first-block">
-
-        <div class="block-pic">
-
-            <img src="img/top-nft/nft-pic.png" alt="">
-
-        </div>
-
-        <div class="block-nft">
-
-            <div class="info-left">
-
-                <div >
-                    <p class="info-title">Apollo Eth #1289 NFT</p>
-                </div>
-
-                <div class="info-acc">
-                    <img src="img/first-block/icon.png" alt="">
-                    <p>@jhonartist</p>
-                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
-                </div>
-
-                <div >
-                    <p class="info-rev">Reserve price</p>
-                </div>
-
-                <div class="info-price">
-                    <img src="img/first-block/eth.png" alt="">
-                    <p class="price-left">ETH 9.31</p>
-                    <p class="price-right">($29,8846)</p>
-                </div>
-                
-            </div>
-
-            <div class="info-right">
-
-                <div >
-                    <p class="info-rev">Auction Ends in</p>
-                </div>
-
-                <div id="info-timer" class="info-timer">
-
-                    <div id="timer-up" class="timer-up">
-                        <p class="up-text">18</p>
-                        <p class="up-text">25</p>
-                        <p class="up-text">44</p>
-                    </div>
-
-                    <div class="timer-down">
-                        <p class="down-text">Hours</p>
-                        <p class="down-text">Mins</p>
-                        <p class="down-text">Secs</p>
-                    </div>
-
-                    <a class="info-button">Place Bid</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    </swiper-slide>
-    <swiper-slide>
-      <div class="first-block">
-
-        <div class="block-pic">
-
-            <img src="img/top-nft/nft-pic.png" alt="">
-
-        </div>
-
-        <div class="block-nft">
-
-            <div class="info-left">
-
-                <div >
-                    <p class="info-title">Apollo Eth #1289 NFT</p>
-                </div>
-
-                <div class="info-acc">
-                    <img src="img/first-block/icon.png" alt="">
-                    <p>@jhonartist</p>
-                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
-                </div>
-
-                <div >
-                    <p class="info-rev">Reserve price</p>
-                </div>
-
-                <div class="info-price">
-                    <img src="img/first-block/eth.png" alt="">
-                    <p class="price-left">ETH 9.31</p>
-                    <p class="price-right">($29,8846)</p>
-                </div>
-                
-            </div>
-
-            <div class="info-right">
-
-                <div >
-                    <p class="info-rev">Auction Ends in</p>
-                </div>
-
-                <div id="info-timer" class="info-timer">
-
-                    <div id="timer-up" class="timer-up">
-                        <p class="up-text">18</p>
-                        <p class="up-text">25</p>
-                        <p class="up-text">44</p>
-                    </div>
-
-                    <div class="timer-down">
-                        <p class="down-text">Hours</p>
-                        <p class="down-text">Mins</p>
-                        <p class="down-text">Secs</p>
-                    </div>
-
-                    <a class="info-button">Place Bid</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    </swiper-slide>
-    
-  </swiper-container>
+    <div class="poligon">
+        <a href=""> Button</a>
+      </div> 
 
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
