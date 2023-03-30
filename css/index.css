@@ -2,9 +2,12 @@
     margin: 0;
     scroll-behavior: smooth;
     /* overflow-x: hidden; */
+    
 }
 
-
+html {
+    background-color: #241043;
+}
 
 hr {
     margin: 0 !important;
@@ -58,7 +61,7 @@ hr {
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     background: linear-gradient(269deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
-    backdrop-filter: blur(56.6267px);
+    /* backdrop-filter: blur(56.6267px); */
     padding: 1.6% 13%;
     max-width: 133px;
     border: 1px solid rgba(255, 166, 250, 1);
@@ -95,7 +98,7 @@ hr {
 }
 
 .first-screen .mid-info {
-    padding-right: 3rem;
+    /* padding-right: 3rem; */
 }
 
 .first-screen .first-mid .mid-up {
@@ -180,6 +183,7 @@ hr {
     /* padding-bottom: 0; */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
     backdrop-filter: blur(29.3092px);
+    -webkit-backdrop-filter: blur(29.3092px);
     position: relative;
     bottom: 3rem;
     border: 1px solid rgba(255, 255, 255, 0.28);
@@ -341,7 +345,7 @@ hr {
     /* display: block; */
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
-    backdrop-filter: blur(56.6267px);
+    /* backdrop-filter: blur(56.6267px); */
     /* Note: backdrop-filter has minimal browser support */
     /* border-radius: 1.17972px; */
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
@@ -402,7 +406,7 @@ hr {
     /* padding: 1rem 16rem 0 3rem; */
     /* padding-bottom: 0; */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
-    backdrop-filter: blur(29.3092px);
+    /* backdrop-filter: blur(29.3092px); */
     position: relative;
     max-width: 100%;
     /* bottom: 3rem; */
@@ -476,38 +480,48 @@ hr {
 
 }
 
-.block-nft  .info-rev {
+.block-nft .info-left .info-rev {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
     font-size: 8.5004px;
     line-height: 27px;
-    /* or 320% */
-
     display: flex;
     align-items: center;
-
     color: #FFFFFF;
-
     opacity: 0.7;
     position: relative;
     top: 14px;
     left: 12px;
 }
 
+.block-nft .info-right  .info-rev {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.5004px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position: relative;
+    top: 19px;
+}
+
 .block-nft .info-left .info-price {
     display: flex;
     position: relative;
     bottom: 10px;
-    left: 9px;
+    left: 10px;
     align-items: baseline;
     max-height: 2rem;
 }
 
 .block-nft .info-left .info-price img {
     position: relative;
-    top: 4px;
-    left: 1px;
+    top: 7px;
+    left: 2px;
 }
 
 
@@ -530,16 +544,12 @@ hr {
     font-weight: 400;
     font-size: 8.5004px;
     line-height: 27px;
-    /* or 320% */
-    
     display: flex;
     align-items: center;
-    
-    /* White/White 100 */
-    
     color: #FFFFFF;
-    
     opacity: 0.7;
+    position: relative;
+    left: 18px;
 }
 
 
@@ -576,9 +586,9 @@ hr {
     color: #FFFFFF;
 
     position: relative;
-    bottom: 1px;
-    right: 2px;
-    padding: 0px 25%;
+    top: 13px;
+    right: 9px;
+    padding: 0px 33%;
 }
 
 .block-nft .info-right .info-timer .timer-down .down-text {
@@ -596,9 +606,9 @@ hr {
 
     opacity: 0.7;
     position: relative;
-    bottom: 0px;
-    right: 5px;
-    padding: 0px 13%;
+    bottom: 2px;
+    right: 11px;
+    padding: 0px 23%;
 }
 
 .block-nft .info-right .info-button {
@@ -607,17 +617,21 @@ hr {
     font-weight: 600;
     font-size: 13.6006px;
     line-height: 17px;
-
+    text-decoration: none;
     color: #FFFFFF;
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 3.40016px 82.4539px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(81.6038px);
-    
+    position: relative;
+    /* bottom: 2px; */
+    right: 8px;
+    padding: 10% 27%;
 }
 
-.aga {
+.center-button {
     display: flex;
     justify-content: center;
+    padding: 10%;
 }
 
 
@@ -649,7 +663,8 @@ hr {
 .collect {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.4rem;
+    padding-bottom: 5rem;
     color: white;
     background-color: #241043;
 }
@@ -660,7 +675,7 @@ hr {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    
+    padding: 1.5rem 0.2rem 0;
     color: #FFFFFF;
 }
 
@@ -672,7 +687,7 @@ hr {
 .collect .collect-select a  {
 
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 9% 11%;
+    padding: 8% 11%;
     margin: 5% 2%;
     font-family: 'Orbitron';
     font-style: normal;
@@ -680,6 +695,9 @@ hr {
     font-size: 10.9922px;
     line-height: 14px;
     text-align: center;
+    position: relative;
+    bottom: 4px;
+    right: 2px;
 
     color: rgba(255, 255, 255, 0.5);
 }
@@ -689,13 +707,14 @@ hr {
     /* display: block; */
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
-    backdrop-filter: blur(56.6267px);
+    /* backdrop-filter: blur(56.6267px); */
     /* Note: backdrop-filter has minimal browser support */
     /* border-radius: 1.17972px; */
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     /* border-radius: 50px 0px ; */
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 3% 13%; 
+    text-align: center;
+    padding: 8% 11%; 
     color: white;
     text-decoration: none;
 }
@@ -703,10 +722,26 @@ hr {
 .collect .collect-model {
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 7px;
+    left: 3px;
+}
+
+.collect .view-all {
+    display: flex;
+    justify-content: flex-end;
+}
+.collect .view-all p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.24417px;
+    line-height: 10px;
+    color: #FFFFFF;
 }
 
 .collect .collect-model img {
-    max-width: 60%;
+    max-width: 57%;
 }
 
 
@@ -715,7 +750,7 @@ hr {
 .explore {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem;
     color: white;
     background-color: #241043;
 }
@@ -724,15 +759,14 @@ hr {
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    
+    font-size: 18.0606px;
+    line-height: 21px;
     color: #FFFFFF;
 }
 
 .explore .explore-block {
     border: 1px solid rgba(255, 255, 255, 0.28);
-
+    margin: 1rem;
 }
 
 .explore .explore-up {
@@ -745,8 +779,7 @@ hr {
     align-items: center;
     flex-grow: 1;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
-    backdrop-filter: blur(27.4188px);
-    /* Note: backdrop-filter has minimal browser support */
+    /* backdrop-filter: blur(27.4188px); */
 }
 
 .explore .explore-down .explore-icon {
