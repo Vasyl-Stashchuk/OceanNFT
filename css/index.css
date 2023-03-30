@@ -4,19 +4,11 @@
     /* overflow-x: hidden; */
 }
 
-body {
-   
-}
 
-
-a {
-    text-decoration: none;
-}
 
 hr {
     margin: 0 !important;
 }
-
 
 
 
@@ -150,10 +142,11 @@ hr {
 }
 
 .first-down .down-down {
-    display: flex;
-    grid-template-columns: 1.75fr 1fr;
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
     padding-top: 2rem;
     /* padding-left: 1rem; */
+    align-items: center;
 }
 
 .first-screen .first-down img {
@@ -167,22 +160,30 @@ hr {
 
 
 .first-screen .first-block {
-    padding: 2rem;
+    padding: 1.5rem;
     color: white;
 }
 
 
 .first-screen .first-block .block-pic {
+    clip-path: polygon(0% 20%, 39% 0, 100% 0, 100% 100%, 0 100%);
+}
 
+.first-screen .first-block .block-pic img {
+    padding-top: 2rem;
 }
 
 .first-screen .first-block .block-info {
     display: flex;
-    /* justify-content: space-around; */
+    border-radius: 8.52632px;
     padding: 1rem;
-
+    /* padding-bottom: 0; */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
     backdrop-filter: blur(29.3092px);
+    position: relative;
+    bottom: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    clip-path: polygon(0% 27%, 14% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .block-info .info-left {
@@ -201,46 +202,84 @@ hr {
     font-style: normal;
     font-weight: 700;
     font-size: 17.0526px;
-    line-height: 34px;
-    /* identical to box height, or 200% */
-    
+    /* line-height: 34px; */
     display: flex;
     align-items: center;
-    
     color: #FFFFFF;
+    position: relative;
+    top: 13px;
+    left: 6px;
 }
 
 .block-info .info-left .info-acc {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+    top: 3px;
+    left: 6px;
+    align-items: baseline;
+    max-height: 2rem;
 }
 
-.block-info .info-rev {
+.block-info .info-left .info-acc p {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.9211px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 11px;
+    left: 3px;
+}
+
+.block-info .info-left .info-acc .info-veryf {
+    position: relative;
+    bottom: 9px;
+    left: 6px;
+}
+
+.block-info  .info-rev {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
     font-size: 10.6579px;
-    line-height: 34px;
-    /* identical to box height, or 320% */
-
+    /* line-height: 34px; */
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
-
     opacity: 0.7;
+    position: relative;
+    top: 19px;
+    left: 7px;
 }
 
 .block-info .info-left .info-price {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+    top: 3px;
+    left: 6px;
+    align-items: baseline;
+    max-height: 2rem;
 }
+
+.block-info .info-left .info-price img {
+    position: relative;
+    top: 4px;
+    left: 1px;
+}
+
 
 .block-info .info-left .info-price .price-left {
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 700;
     font-size: 9.36903px;
-    line-height: 12px;
+    /* line-height: 12px; */
+    position: relative;
+    bottom: 1px;
+    left: 7px;
 }
 
 .block-info .info-left .info-price .price-right {
@@ -248,7 +287,17 @@ hr {
     font-style: normal;
     font-weight: 400;
     font-size: 10.6579px;
-    line-height: 34px;
+    /* line-height: 34px; */
+    position: relative;
+    bottom: 1px;
+    left: 12px;
+}
+
+
+.block-info .info-right .info-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -256,6 +305,7 @@ hr {
 .block-info .info-right .info-timer .timer-up {
     display: flex;
     justify-content: space-around;
+    max-height: 1rem;
 }
 
 .block-info .info-right .info-timer .timer-down {
@@ -269,6 +319,10 @@ hr {
     font-weight: 600;
     font-size: 17.0526px;
     line-height: 34px;
+    position: relative;
+    bottom: 1px;
+    right: 2px;
+    padding: 0px 25%;
 }
 
 .block-info .info-right .info-timer .timer-down .down-text {
@@ -277,6 +331,10 @@ hr {
     font-weight: 500;
     font-size: 10.6579px;
     line-height: 34px;
+    position: relative;
+    bottom: 0px;
+    right: 5px;
+    padding: 0px 13%;
 }
 
 .block-info .info-right .info-button {
@@ -286,12 +344,13 @@ hr {
     backdrop-filter: blur(56.6267px);
     /* Note: backdrop-filter has minimal browser support */
     /* border-radius: 1.17972px; */
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     /* border-radius: 50px 0px ; */
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 3% 13%;
-    
+    padding: 6% 22%;
+    text-decoration: none;
     color: white;
+    border-radius: 2.13158px;
 }
 
 
@@ -300,154 +359,291 @@ hr {
 
 /* TOP - NFT  */
 
-
-.top-nft {
-    padding: 2rem;
+.top-nft{
+    padding: 1.5rem 0; 
+    display: flex;
+    flex-direction: column;
     color: white;
     background-color: #241043;
 }
 
-.top-nft .nft-info {
+
+.top-nft .first-block {
+    position: relative;
+    right: 10px;
+}
+
+.top-nft .top-title {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 1.5rem;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    left: 2px;
+}
+
+
+.top-nft .first-block .block-pic {
+    /* clip-path: polygon(0% 20%, 39% 0, 100% 0, 100% 100%, 0 100%); */
+}
+
+.top-nft .first-block .block-pic img {
+    padding-top: 2rem;
+    max-width: 100%;
+}
+
+.top-nft .first-block .block-nft {
     display: flex;
-    padding: 1rem;
+    /* border-radius: 8.52632px; */
+    /* padding: 1rem 16rem 0 3rem; */
+    /* padding-bottom: 0; */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
     backdrop-filter: blur(29.3092px);
+    position: relative;
+    max-width: 100%;
+    /* bottom: 3rem; */
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    /* clip-path: polygon(0% 27%, 14% 0, 100% 0, 100% 100%, 0 100%); */
+    padding: 0.5rem ;
 }
 
-
-
-
-.nft-info .info-left {
-    /* flex-grow: 1; */
-    
-}
-
-.nft-info .info-right {
+.block-nft .info-left {
     flex-grow: 1;
-    
+    position: relative;
+    /* right: 32px; */
+}
+
+.block-nft .info-right {
+    flex-grow: 1;
+    position: relative;
+    /* top: 3px; */
+    /* left: 6px; */
 }
 
 
-.nft-info .info-left .info-title {
+.block-nft .info-left .info-title {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 700;
-    font-size: 17.0526px;
-    line-height: 34px;
-    /* identical to box height, or 200% */
-    
+    font-size: 13.6006px;
+    line-height: 27px;
+    /* or 200% */
+
     display: flex;
     align-items: center;
-    
+
     color: #FFFFFF;
+
+    position: relative;
+    top: 22px;
+    left: 13px;
 }
 
-.nft-info .info-left .info-acc {
+.block-nft .info-left .info-acc {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+    top: 9px;
+    left: 12px;
+    align-items: baseline;
+    max-height: 2rem;
 }
 
-.nft-info .info-rev {
+.block-nft .info-left .info-acc p {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
-    font-size: 10.6579px;
-    line-height: 34px;
-    /* identical to box height, or 320% */
+    font-size: 11.9006px;
+    line-height: 27px;
+    /* or 229% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    position: relative;
+    bottom: 11px;
+    left: 3px;
+}
+
+.block-nft .info-left .info-acc .info-veryf {
+    position: relative;
+    bottom: 7px;
+    left: 14px;
+
+}
+
+.block-nft  .info-rev {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.5004px;
+    line-height: 27px;
+    /* or 320% */
+
+    display: flex;
+    align-items: center;
 
     color: #FFFFFF;
 
     opacity: 0.7;
+    position: relative;
+    top: 14px;
+    left: 12px;
 }
 
-.nft-info .info-left .info-price {
+.block-nft .info-left .info-price {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    position: relative;
+    bottom: 10px;
+    left: 9px;
+    align-items: baseline;
+    max-height: 2rem;
 }
 
-.nft-info .info-left .info-price .price-left {
+.block-nft .info-left .info-price img {
+    position: relative;
+    top: 4px;
+    left: 1px;
+}
+
+
+.block-nft .info-left .info-price .price-left {
     font-family: 'Orbitron';
     font-style: normal;
     font-weight: 700;
-    font-size: 9.36903px;
-    line-height: 12px;
+    font-size: 7.47244px;
+    line-height: 9px;
+
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1px;
+    left: 7px;
 }
 
-.nft-info .info-left .info-price .price-right {
+.block-nft .info-left .info-price .price-right {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 400;
-    font-size: 10.6579px;
-    line-height: 34px;
+    font-size: 8.5004px;
+    line-height: 27px;
+    /* or 320% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* White/White 100 */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+}
+
+
+.block-nft .info-right .info-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
-.nft-info .info-right .info-timer .timer-up {
+.block-nft .info-right .info-timer .timer-up {
+    display: flex;
+    justify-content: space-around;
+    max-height: 1rem;
+}
+
+.block-nft .info-right .info-timer .timer-down {
     display: flex;
     justify-content: space-around;
 }
 
-.nft-info .info-right .info-timer .timer-down {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nft-info .info-right .info-timer .timer-up .up-text {
+.block-nft .info-right .info-timer .timer-up .up-text {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
-    font-size: 17.0526px;
-    line-height: 34px;
+    font-size: 13.6006px;
+    line-height: 27px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    position: relative;
+    bottom: 1px;
+    right: 2px;
+    padding: 0px 25%;
 }
 
-.nft-info .info-right .info-timer .timer-down .down-text {
+.block-nft .info-right .info-timer .timer-down .down-text {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 500;
-    font-size: 10.6579px;
-    line-height: 34px;
+    font-size: 8.5004px;
+    line-height: 27px;
+    /* or 320% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+    position: relative;
+    bottom: 0px;
+    right: 5px;
+    padding: 0px 13%;
 }
 
-.nft-info .info-right .info-button {
-    /* display: block; */
+.block-nft .info-right .info-button {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.6006px;
+    line-height: 17px;
+
+    color: #FFFFFF;
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
-    box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
-    backdrop-filter: blur(56.6267px);
-    /* Note: backdrop-filter has minimal browser support */
-    /* border-radius: 1.17972px; */
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    /* border-radius: 50px 0px ; */
-    border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 3% 13%;
+    box-shadow: 0px 3.40016px 82.4539px rgba(255, 86, 246, 0.51);
+    backdrop-filter: blur(81.6038px);
     
-    color: white;
 }
+
+.aga {
+    display: flex;
+    justify-content: center;
+}
+
 
 .top-nft .top-button {
-    display: flex;
-    
-}
-
-.top-nft .top-button .button-explore {
-    /* display: block; */
-    /* background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%); */
+    clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+    /* background: linear-gradient(269deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%); */
     box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(56.6267px);
-    /* Note: backdrop-filter has minimal browser support */
-    /* border-radius: 1.17972px; */
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    /* border-radius: 50px 0px ; */
-    border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 3% 13%;
+    padding: 1.6% 13%;
+    max-width: 133px;
+    border: 1px solid rgba(255, 166, 250, 1);
     
-    color: white;
+}
+
+.top-nft .top-button a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 
-
+/* FInal Top_NFT */
 
 
 .collect {

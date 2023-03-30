@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/other.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Inter:wght@400;500;800&family=Lato:wght@700&family=League+Spartan:wght@600&family=Orbitron:wght@700&family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
 
     <title>Ocean-NFT</title>
+
+
+
 </head>
 <body>
 
@@ -107,7 +110,7 @@
                     <div class="info-acc">
                         <img src="img/first-block/icon.png" alt="">
                         <p>@jhonartist</p>
-                        <img src="img/first-block/veryf.png" alt="">
+                        <img class="info-veryf" src="img/first-block/veryf.png" alt="">
                     </div>
 
                     <div >
@@ -159,161 +162,221 @@
 
       <section class="top-nft">
 
-        <div class="swiper">
+    <div >
+        <p class="top-title">Top NFT’s now</p>
+    </div>
 
 
-            <div class="swiper-wrapper">
+    <swiper-container class="mySwiper"  slides-per-view="auto"
+    centered-slides="true" space-between="25">
+    <swiper-slide>
+      <div class="first-block">
 
+        <div class="block-pic">
 
-                <div class="swiper-slide top-block">
+            <img src="img/top-nft/nft-pic.png" alt="">
 
-                    <div class="nft-pic">
+        </div>
 
-                        <img src="img/top-nft/nft-pic.png" alt="">
+        <div class="block-nft">
 
-                    </div>
-                    
-                    <div class="nft-info">
+            <div class="info-left">
 
-                        
-                        <div class="info-left">
-
-                            <div >
-                                <p class="info-title">3D Abstract Hand</p>
-                            </div>
-
-                            <div class="info-acc">
-                                <img src="img/first-block/icon.png" alt="">
-                                <p>@jhonartist</p>
-                                <img src="img/first-block/veryf.png" alt="">
-                            </div>
-
-                            <div >
-                                <p class="info-rev">Reserve price</p>
-                            </div>
-
-                            <div class="info-price">
-                                <img src="img/first-block/eth.png" alt="">
-                                <p class="price-left">ETH 9.31</p>
-                                <p class="price-right">($29,8846)</p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="info-right">
-
-                            <div >
-                                <p class="info-rev">Auction Ends in</p>
-                            </div>
-
-                            <div id="info-timer" class="info-timer">
-
-                                <div id="timer-up" class="timer-up">
-                                    <p class="up-text">18</p>
-                                    <p class="up-text">25</p>
-                                    <p class="up-text">44</p>
-                                </div>
-
-                                <div class="timer-down">
-                                    <p class="down-text">Hours</p>
-                                    <p class="down-text">Mins</p>
-                                    <p class="down-text">Secs</p>
-                                </div>
-
-                                <a class="info-button">Place Bid</a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                <div >
+                    <p class="info-title">Apollo Eth #1289 NFT</p>
                 </div>
 
+                <div class="info-acc">
+                    <img src="img/top-nft/nft-logo.png" alt="">
+                    <p>@jhonartist</p>
+                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
+                </div>
 
-                <div class="swiper-slide top-block">
+                <div >
+                    <p class="info-rev">Reserve price</p>
+                </div>
 
-                    <div class="nft-pic">
+                <div class="info-price">
+                    <img src="img/first-block/eth.png" alt="">
+                    <p class="price-left">ETH 9.31</p>
+                    <p class="price-right">($29,8846)</p>
+                </div>
+                
+            </div>
 
-                        <img src="img/top-nft/nft-pic.png" alt="">
+            <div class="info-right">
 
+                <div >
+                    <p class="info-rev">Auction Ends in</p>
+                </div>
+
+                <div id="info-timer" class="info-timer">
+
+                    <div id="timer-up" class="timer-up">
+                        <p class="up-text">18</p>
+                        <p class="up-text">25</p>
+                        <p class="up-text">44</p>
                     </div>
-                    
-                    <div class="nft-info">
 
-                        
-                        <div class="info-left">
-
-                            <div >
-                                <p class="info-title">3D Abstract Hand</p>
-                            </div>
-
-                            <div class="info-acc">
-                                <img src="img/first-block/icon.png" alt="">
-                                <p>@jhonartist</p>
-                                <img src="img/first-block/veryf.png" alt="">
-                            </div>
-
-                            <div >
-                                <p class="info-rev">Reserve price</p>
-                            </div>
-
-                            <div class="info-price">
-                                <img src="img/first-block/eth.png" alt="">
-                                <p class="price-left">ETH 9.31</p>
-                                <p class="price-right">($29,8846)</p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="info-right">
-
-                            <div >
-                                <p class="info-rev">Auction Ends in</p>
-                            </div>
-
-                            <div id="info-timer" class="info-timer">
-
-                                <div id="timer-up" class="timer-up">
-                                    <p class="up-text">18</p>
-                                    <p class="up-text">25</p>
-                                    <p class="up-text">44</p>
-                                </div>
-
-                                <div class="timer-down">
-                                    <p class="down-text">Hours</p>
-                                    <p class="down-text">Mins</p>
-                                    <p class="down-text">Secs</p>
-                                </div>
-
-                                <a class="info-button">Place Bid</a>
-
-                            </div>
-
-                        </div>
-
+                    <div class="timer-down">
+                        <p class="down-text">Hours</p>
+                        <p class="down-text">Mins</p>
+                        <p class="down-text">Secs</p>
                     </div>
+
+                    <a class="info-button">Place Bid</a>
 
                 </div>
 
             </div>
-            
 
         </div>
 
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="first-block">
 
-        <div class="top-button">
-            <a href="button-explore"></a>
+        <div class="block-pic">
+
+            <img src="img/top-nft/nft-pic2.png" alt="">
+
         </div>
 
+        <div class="block-nft">
 
+            <div class="info-left">
+
+                <div >
+                    <p class="info-title">Apollo Eth #1289 NFT</p>
+                </div>
+
+                <div class="info-acc">
+                    <img src="img/first-block/icon.png" alt="">
+                    <p>@jhonartist</p>
+                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
+                </div>
+
+                <div >
+                    <p class="info-rev">Reserve price</p>
+                </div>
+
+                <div class="info-price">
+                    <img src="img/first-block/eth.png" alt="">
+                    <p class="price-left">ETH 9.31</p>
+                    <p class="price-right">($29,8846)</p>
+                </div>
+                
+            </div>
+
+            <div class="info-right">
+
+                <div >
+                    <p class="info-rev">Auction Ends in</p>
+                </div>
+
+                <div id="info-timer" class="info-timer">
+
+                    <div id="timer-up" class="timer-up">
+                        <p class="up-text">18</p>
+                        <p class="up-text">25</p>
+                        <p class="up-text">44</p>
+                    </div>
+
+                    <div class="timer-down">
+                        <p class="down-text">Hours</p>
+                        <p class="down-text">Mins</p>
+                        <p class="down-text">Secs</p>
+                    </div>
+
+                    <a class="info-button">Place Bid</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="first-block">
+
+        <div class="block-pic">
+
+            <img src="img/top-nft/nft-pic3.png" alt="">
+
+        </div>
+
+        <div class="block-nft">
+
+            <div class="info-left">
+
+                <div >
+                    <p class="info-title">Apollo Eth #1289 NFT</p>
+                </div>
+
+                <div class="info-acc">
+                    <img src="img/first-block/icon.png" alt="">
+                    <p>@jhonartist</p>
+                    <img class="info-veryf" src="img/first-block/veryf.png" alt="">
+                </div>
+
+                <div >
+                    <p class="info-rev">Reserve price</p>
+                </div>
+
+                <div class="info-price">
+                    <img src="img/first-block/eth.png" alt="">
+                    <p class="price-left">ETH 9.31</p>
+                    <p class="price-right">($29,8846)</p>
+                </div>
+                
+            </div>
+
+            <div class="info-right">
+
+                <div >
+                    <p class="info-rev">Auction Ends in</p>
+                </div>
+
+                <div id="info-timer" class="info-timer">
+
+                    <div id="timer-up" class="timer-up">
+                        <p class="up-text">18</p>
+                        <p class="up-text">25</p>
+                        <p class="up-text">44</p>
+                    </div>
+
+                    <div class="timer-down">
+                        <p class="down-text">Hours</p>
+                        <p class="down-text">Mins</p>
+                        <p class="down-text">Secs</p>
+                    </div>
+
+                    <a class="info-button">Place Bid</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </swiper-slide>
+    
+  </swiper-container>
+
+        <div class="aga">
+            <div class="top-button">
+                <a class="button-explore" href="">Explore</a>
+            </div>
+        </div>
 
       </section>
-
-
-
-
       
+    
+    
 
     <section class="collect">
 
@@ -585,7 +648,8 @@
 
 
     <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
