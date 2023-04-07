@@ -1,0 +1,1598 @@
+@media (min-width: 1250px) {
+
+    .first-screen {
+        background-color: #241043;
+        padding: 0 4.5rem;
+    }
+    
+    .first-screen .first-up {
+        padding: 2rem 2rem 0;
+        
+    }
+    
+    .first-screen .first-up .up-big {
+        font-family: 'Spartan';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 66.3276px;
+        line-height: 137.4%;
+        color: #FFFFFF;
+        width: 48rem;
+    }
+    
+    .first-screen .first-up .up-small {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26.531px;
+        line-height: 44px;
+        color: #FFFFFF;
+        width: 39rem;
+        position: relative;
+        top: 2px;
+        left: -1px;
+    }
+    
+    
+    .first-screen .first-button {
+        padding: 1.1rem 1.9rem;
+        display: flex;
+        position: relative;
+        top: 14px;
+        left: -2px;
+    }
+    
+    .first-screen .first-button a{
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    
+    .first-screen .first-button .amaz-button {
+        display: inline-block;
+        position: relative;
+        width: 250.83px; 
+        height: 65.12px; 
+        background: linear-gradient(92.23deg, #FFA6FA 100%, #3C79D4 100%);
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        box-sizing: border-box;
+        clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+        border-radius: 1.17972px;
+    }
+    
+    .first-screen .first-button .amaz-button a {
+        position: absolute;
+        top: 2px; 
+        left: 2px; 
+        width: 249.83px; 
+        height: 64.12px;    
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        background: linear-gradient(265deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+        /* text-align: center; */
+        /* text-decoration: none; */
+        
+        border-radius: 1.17972px;
+    }
+    .first-screen .first-button .amaz-button p {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 71px;
+        bottom: 4px;
+    }
+
+    .first-screen .first-button .amaz-button img {
+        position: absolute;
+        left: 167px;
+        bottom: 23px;
+    }
+    
+    .first-screen .first-button .grad-button {
+        margin-top: 0.3rem;
+        
+    }
+    
+    .first-screen .first-button .grad-button a {
+        background: linear-gradient(89.89deg, #42A6E3 2.33%, #FF56F6 101.4%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin-left: 1.3rem;
+        position: relative;
+        top: 14px;
+        left: 17px;
+
+    }
+    
+    .first-screen .first-button {
+    
+    }
+    
+    
+    .first-screen .first-mid {
+        padding: 4rem 2rem;
+        display: flex;
+        /* justify-content: space-between; */
+        position: relative;
+        top: -2px;
+        left: -27px;
+    }
+    
+    .first-screen .mid-info {
+        padding: 0 2%;
+    }
+
+    .first-screen .mid-uniq {
+        padding: 0 3%;
+    }
+    
+    .first-screen .first-mid .mid-up {
+        
+        font-family: 'Aldrich';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39.7965px;
+        line-height: 53px;
+        color: #FFFFFF;
+       
+    }
+    
+    .first-screen .first-mid .mid-down {
+        font-family: 'Alethia Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.6873px;
+        line-height: 22px;
+        color: #FFFFFF;
+        position: relative;
+        top: -18px;
+        left: -1px;
+    }
+    
+    
+    .first-screen .first-down {
+        padding: 0.1rem 2rem;
+        padding-top: 0rem;
+        display: flex;
+        /* justify-content: space-between; */
+        position: relative;
+        top: 23px;
+        left: 1px;
+    }
+    
+    .first-down .down-up {
+        display: grid;
+        grid-template-columns: 2.355fr 1fr;
+        align-items: end;
+    }
+    
+    .first-down .down-down {
+        display: grid;
+        grid-template-columns: 2.355fr 1fr;
+        /* padding-top: 2rem; */
+        padding-left: 9.5rem;
+        align-items: end;
+    }
+    
+    .first-screen .first-down img {
+        max-width: 100%;
+        /* aspect-ratio: 3/2; */
+        /* object-fit: contain; */
+        /* mix-blend-mode: ; */
+        /* margin: 1%; */
+    }
+    
+    
+    
+    .first-screen .first-block {
+        /* padding: 1.5rem;  */
+        color: white;
+        position: relative;
+        top: -677px;
+        left: 933px;
+        max-width: 26%;
+        height: 205px;
+    }
+    
+    
+    .first-screen .first-block .block-pic {
+        clip-path: polygon(0% 13%, 24% 0, 100% 0, 100% 100%, 0 100%)
+    }
+    
+    .first-screen .first-block .block-pic img {
+        /* padding-top: 2rem; */
+    }
+    
+    .first-screen .first-block .block-info {
+        display: flex;
+        border-radius: 8.52632px;
+        padding: 1rem;
+        /* padding-bottom: 0; */
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+        backdrop-filter: blur(29.3092px);
+        -webkit-backdrop-filter: blur(29.3092px);
+        position: relative;
+        bottom: 3rem;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        clip-path: polygon(0% 27%, 14% 0, 100% 0, 100% 100%, 0 100%);
+        width: 90% ;
+        position: relative;
+        top: -117px;
+        left: 155px;
+    
+    }
+    
+    .block-info .info-left {
+        flex-grow: 1;
+        
+    }
+    
+    .block-info .info-right {
+        flex-grow: 1;
+        
+    }
+    
+    
+    .block-info .info-left .info-title {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17.6873px;
+        /* line-height: 34px; */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        position: relative;
+        top: 13px;
+        left: 6px;
+    }
+    
+    .block-info .info-left .info-acc {
+        display: flex;
+        position: relative;
+        top: 3px;
+        left: 8px;
+        align-items: baseline;
+        max-height: 2rem;
+    }
+    
+    .block-info .info-left .info-acc p {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.4764px;
+        line-height: 34px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 10px;
+        left: 3px;
+    }
+    
+    .block-info .info-left .info-acc .info-veryf {
+        position: relative;
+        bottom: 9px;
+        left: 6px;
+    }
+    
+    .block-info .info-left .info-rev {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11.0546px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        top: 17px;
+        left: 7px;
+    }
+
+    .block-info .info-right .info-rev {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11.0546px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        top: 16px;
+        left: 33px;
+    }
+    
+    .block-info .info-left .info-price {
+        display: flex;
+        position: relative;
+        top: 3px;
+        left: 6px;
+        align-items: baseline;
+        max-height: 2rem;
+    }
+    
+    .block-info .info-left .info-price img {
+        position: relative;
+        top: 4px;
+        left: 1px;
+    }
+    
+    
+    .block-info .info-left .info-price .price-left {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9.71776px;
+        /* line-height: 12px; */
+        position: relative;
+        bottom: 3px;
+        left: 6px;
+    
+    }
+    
+    .block-info .info-left .info-price .price-right {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.0546px;
+        /* line-height: 34px; */
+        position: relative;
+        bottom: 3px;
+        left: 12px;
+    }
+    
+    
+    .block-info .info-right .info-timer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    .block-info .info-right .info-timer .timer-up {
+        display: flex;
+        justify-content: space-around;
+        max-height: 1rem;
+    }
+    
+    .block-info .info-right .info-timer .timer-down {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .block-info .info-right .info-timer .timer-up .up-text {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17.6873px;
+        line-height: 34px;
+        position: relative;
+        bottom: 5px;
+        right: -2px;
+        padding: 0px 25%;
+    }
+    
+    .block-info .info-right .info-timer .timer-down .down-text {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.0546px;
+        line-height: 34px;
+        position: relative;
+        bottom: 3px;
+        right: -4px;
+        padding: 0px 14%;
+    }
+    
+    .block-info .info-right .info-button {
+        /* display: block; */
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
+        /* backdrop-filter: blur(56.6267px); */
+        /* Note: backdrop-filter has minimal browser support */
+        /* border-radius: 1.17972px; */
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        /* border-radius: 50px 0px ; */
+        border: 1px solid rgba(255, 166, 250, 1) ;
+        padding: 5% 0%;
+        text-decoration: none;
+        color: white;
+        border-radius: 2.21092px;
+        position: relative;
+        bottom: 0px;
+        right: -9px;
+    }
+    
+    .block-info .info-right .info-button a {
+        position: relative;
+        bottom: 1px;
+        right: -12px;
+    
+    }
+    
+    .block-info .info-right .info-button img {
+        max-width: 19%;
+        position: relative;
+        bottom: 3px;
+        right: -20px;
+    
+    }
+    
+    
+    /* TOP - NFT  */
+    
+    .top-nft{
+        padding: 0 4.5rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #241043;
+    }
+    
+    
+    .top-nft .first-block {
+        position: relative;
+        right: -36px;
+        top: -30px;
+    }
+    
+    .top-nft .top-title {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.531px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding: 2rem;
+        position: relative;
+        right: -6px;
+        top: 4px;
+    }
+    
+    
+    .top-nft .first-block .block-pic {
+        /* clip-path: polygon(0% 20%, 39% 0, 100% 0, 100% 100%, 0 100%); */
+    }
+    
+    .top-nft .first-block .block-pic img {
+        padding-top: 2rem;
+        max-width: 100%;
+    }
+    
+    .top-nft .first-block .block-nft {
+        display: flex;
+        /* border-radius: 8.52632px; */
+        /* padding: 1rem 16rem 0 3rem; */
+        /* padding-bottom: 0; */
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+        /* backdrop-filter: blur(29.3092px); */
+        position: relative;
+        max-width: 100%;
+        /* bottom: 3rem; */
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        /* clip-path: polygon(0% 27%, 14% 0, 100% 0, 100% 100%, 0 100%); */
+        padding: 0.5rem ;
+        padding-bottom: 2rem;
+    }
+    
+    .block-nft .info-left {
+        flex-grow: 1;
+        position: relative;
+        /* right: 32px; */
+    }
+    
+    .block-nft .info-right {
+        flex-grow: 1;
+        position: relative;
+        /* top: 3px; */
+        /* left: 6px; */
+    }
+    
+    
+    .block-nft .info-left .info-title {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23.0401px;
+        line-height: 46px;
+        color: #FFFFFF;
+        position: relative;
+        top: 22px;
+        left: 13px;
+    }
+    
+    .block-nft .info-left .info-acc {
+        display: flex;
+        position: relative;
+        top: 9px;
+        left: 12px;
+        align-items: baseline;
+        max-height: 2rem;
+    }
+    
+    .block-nft .info-left .info-acc p {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20.1601px;
+        line-height: 46px;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 11px;
+        left: 3px;
+    }
+    
+    .block-nft .info-left .info-acc .info-veryf {
+        position: relative;
+        bottom: 7px;
+        left: 14px;
+    
+    }
+    
+    .block-nft .info-left .info-rev {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14.4001px;
+        line-height: 46px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        top: 14px;
+        left: 12px;
+    }
+    
+    .block-nft .info-right  .info-rev {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14.4001px;
+        line-height: 46px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        top: 19px;
+    }
+    
+    .block-nft .info-left .info-price {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        align-items: baseline;
+        max-height: 2rem;
+    }
+    
+    .block-nft .info-left .info-price img {
+        position: relative;
+        top: 7px;
+        left: 2px;
+    }
+    
+    
+    .block-nft .info-left .info-price .price-left {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.6587px;
+        line-height: 16px;
+        
+        color: #FFFFFF;
+        
+        position: relative;
+        bottom: 1px;
+        left: 7px;
+    }
+    
+    .block-nft .info-left .info-price .price-right {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.4001px;
+        line-height: 46px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        left: 18px;
+    }
+    
+    
+    .block-nft .info-right .info-timer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    .block-nft .info-right .info-timer .timer-up {
+        display: flex;
+        justify-content: space-around;
+        max-height: 1rem;
+    }
+    
+    .block-nft .info-right .info-timer .timer-down {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .block-nft .info-right .info-timer .timer-up .up-text {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23.0401px;
+        line-height: 46px;
+        color: #FFFFFF;
+        position: relative;
+        top: -3px;
+        right: 16px;
+        padding: 0px 25%;
+    }
+    
+    .block-nft .info-right .info-timer .timer-down .down-text {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.4001px;
+        line-height: 46px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        bottom: -4px;
+        right: 18px;
+        padding: 0px 16%;
+    }
+    
+    .block-nft .info-right .info-button {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23.0401px;
+        line-height: 29px;
+        color: #FFFFFF;
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 3.40016px 82.4539px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(81.6038px);
+        text-decoration: none;
+        position: relative;
+        bottom: -10px;
+        right: 18px;
+        padding: 9% 22.3%;
+    }
+    
+    .top-nft .center-button {
+        display: none;
+        justify-content: center;
+        padding: 10%;
+    }
+    
+    
+    .top-button {
+        display: inline-block;
+        position: relative;
+        width: 250.83px; 
+        height: 65.12px; 
+        background: linear-gradient(92.23deg, #FFA6FA 100%, #3C79D4 100%);
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        box-sizing: border-box;
+        clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+        border-radius: 1.17972px;
+        
+    }
+    
+    .top-button a {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 248.83px;
+        height: 63.12px;   
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        background-color: #241043;
+        clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
+        border-radius: 1.17972px;
+    }
+    
+
+    .top-button p {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 68px;
+        bottom: 0px;
+    }
+    
+    .top-button img {
+        position: absolute;
+        left: 167px;
+        bottom: 23px;
+    }
+    
+    /* FInal Top_NFT */
+    
+    
+    .collect {
+        display: flex;
+        flex-direction: column;
+        /* padding: 1.4rem;
+        padding-bottom: 5rem; */
+        padding: 11rem 6.5rem 0;
+        color: white;
+        background-color: #241043;
+    }
+    
+    .collect .collect-title {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.531px;
+        line-height: 33px;
+        color: #FFFFFF;
+
+    }
+
+    .collect .collect-block {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+    }
+    
+    .collect .collect-select {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: -20px;
+        right: -1px;
+    }
+    
+    .collect .collect-select .select-right{
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.5rem;
+    }
+    
+    .collect .collect-select .select-left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.5rem;
+    }
+    
+    .collect .collect-select a  {
+    
+        border: 1px solid rgba(255, 166, 250, 1) ;
+        padding: 9% 11%;
+        margin: 6% 2%;
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.531px;
+        line-height: 33px;
+        text-align: center;
+        position: relative;
+        bottom: 11px;
+        right: 3px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 23rem;
+    }
+    
+    
+    .collect .collect-select .select-active {
+        /* display: block; */
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
+        /* backdrop-filter: blur(56.6267px); */
+        /* border-radius: 1.17972px; */
+        /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+        /* border-radius: 50px 0px ; */
+        border: 1px solid rgba(255, 166, 250, 1) ;
+        text-align: center;
+        padding: 8% 11%; 
+        color: white;
+        text-decoration: none;
+    }
+
+
+    
+    .collect .collect-model {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 94px;
+        left: 132px;
+    }
+    
+    .collect .view-all {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .collect .view-all p {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 208px;
+        left: -673px;
+
+    }
+    
+    .collect .collect-model img {
+        max-width: 100%;
+    }
+    
+    
+    
+    
+    .explore {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4.5rem;
+        color: white;
+        background-color: #241043;
+    }
+    
+    .explore .explore-title {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.531px;
+        line-height: 33px;
+        color: #FFFFFF;
+        padding: 1.5rem 2.6rem;
+        padding-bottom: 0;
+    }
+    
+    .explore .explore-block {
+        border: 2px solid rgba(255, 255, 255, 0.28);
+        /* margin: 4% 1% 0% 0%; */
+        position: relative;
+        right: -39px;
+        top: 30px;
+    }
+    
+    .explore .explore-up {
+    
+    }
+    
+    .explore .explore-down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+        /* backdrop-filter: blur(27.4188px); */
+        padding-bottom: 9.5rem;
+        /* margin-bottom: 0.6rem; */
+    }
+    
+    .explore .explore-down .explore-icon {
+        position: relative;
+        bottom: 103px;
+        left: 1px;
+        height: 20px;
+    
+    }
+    
+    .explore .explore-down .explore-icon img {
+        max-width: 99%;
+    }
+    
+    .explore .explore-down .explore-name {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24.3201px;
+        line-height: 46px;
+        color: #FFFFFF;
+        position: relative;
+        top: 42px;
+        left: 0px;
+        height: 3px;
+
+    }
+    
+    .explore .explore-down .explore-veryf {
+        display: flex;
+        align-items: center;
+    }
+    
+    .explore .explore-down .explore-nick {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20.1601px;
+        line-height: 46px;
+        color: #FFB1EE;
+        position: relative;
+        top: 55px;
+        left: -2px;
+    }
+    
+    .explore .explore-down .explore-veryf img {
+        position: relative;
+        bottom: 7px;
+        left: 10px;
+    }
+    
+    .explore .explore-down .explore-folow {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        flex-grow: 1;
+    }
+        
+    .explore .explore-down .explore-folow{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 3px;
+        right: 0px;
+        
+    }
+    
+    .explore .explore-down .folow{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    
+    .explore .explore-down .folow .up-text{
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31.6897px;
+        /* line-height: 63px; */
+        color: #FFFFFF;
+        position: relative;
+        top: 58px;
+        left: -2px;
+    }
+    
+    .explore .explore-down .folow .down-text{
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.8061px;
+        /* line-height: 63px; */
+        color: #FFFFFF;
+        opacity: 0.7;
+        position: relative;
+        bottom: -35px;
+        left: -3px;
+    }
+    
+    .explore .explore-down .explore-button {
+        /* display: block; */
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 2.35945px 57.2166px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(56.6267px);
+        /* Note: backdrop-filter has minimal browser support */
+        /* border-radius: 1.17972px; */
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        /* border-radius: 50px 0px ; */
+        border: 1px solid rgba(255, 166, 250, 1) ;
+        padding: 1rem 5.8rem;
+        text-decoration: none;
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: relative;
+        top: 67px;
+        left: 2px;
+    
+    }
+    
+    .explore .center-button {
+        display: none;
+        
+    }
+    
+    .seller {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 4%;
+        color: white;
+        background-color: #241043;
+    }
+    
+    .seller .seller-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 2px;
+        right: -2px;
+    }
+    
+    
+    .seller .seller-big  {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.531px;
+        line-height: 33px;
+        color: #FFFFFF;
+    } 
+    
+    .seller .seller-small {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.6873px;
+        line-height: 25px;
+        color: #FFFFFF;
+        position: relative;
+        top: 7px;
+        left: 6px;
+        padding: 0 30rem;
+        text-align: center;
+    }
+
+    .seller .seller-table {
+        display: flex;
+        padding: 0 2%;
+        /* justify-content: center; */
+    }
+
+    .seller .seller-table .seller-block-mobile {
+        display: none;
+    }
+
+    .seller .seller-table .seller-block-pc {
+        padding: 1.1rem;
+        position: relative;
+        
+    }
+    
+    .seller .seller-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        backdrop-filter: blur(27.4781px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 28.5719px;
+        justify-content: space-evenly;
+        position: relative;
+        top: -5px;
+        left: -2px;
+        max-width: 100%;
+        margin: 2.2rem 0rem;
+        /* padding: 0rem 6rem; */
+        width: 437.04px;
+        height: 123.81px;
+    }
+    
+    .seller .seller-item .seller-listnum {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.0479px;
+        line-height: 44px;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.8);
+        position: relative;
+        top: 9px;
+        left: 9px;
+    }
+    
+    .seller .seller-item img {
+        position: relative;
+        top: 2px;
+        left: 5px;
+    
+    }
+    
+    
+    .seller .seller-item .seller-name {
+        position: relative;
+        bottom: 4px;
+        right: 11px;
+    }
+    
+    .seller .seller-item .seller-name .seller-eth {
+        display: flex;
+        align-items: center;
+    }
+    
+    .seller .seller-item .seller-eth img {
+        position: relative;
+        top: -7px;
+        left: 8px;
+    }
+    
+    .seller .seller-name .seller-surname {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.0479px;
+        /* line-height: 44px; */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        position: relative;
+        top: 15px;
+        left: 8px;
+        width: 153px;
+    }
+    
+    .seller .seller-name .seller-number {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13.7568px;
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.8);
+        position: relative;
+        top: 8px;
+        left: 21px;
+    }
+    
+    .seller .seller-light {
+        background: linear-gradient(180deg, rgba(235, 20, 20, 0.15) 0%, rgba(235, 20, 20, 0.1005) 100%);
+        border-radius: 12.7057px;   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.7012px;
+        /* line-height: 47px; */
+        /* or 321% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #FF0000;
+        border: 1px solid rgba(235, 20, 20, 0.15);
+        padding: 1% 4%;
+        position: relative;
+        top: 16px;
+        right: 0px;
+    
+    }
+    
+    .seller .center-button {
+        display: flex;
+        justify-content: center;
+        /* padding: 6% 2%; */
+    
+    }
+
+    .seller .center-button .top-button {
+        display: none;
+    }
+
+    .seller .center-button .explore-all {
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 4.81747px 116.824px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(115.619px);
+        padding: 1rem 5rem;
+        position: relative;
+        top: -5px;
+        left: 7px;
+
+    }
+
+    .seller .center-button .explore-all a{
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.8983px;
+        line-height: 25px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    
+    
+    
+    
+    .what {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background-color: #241043;
+        height: 40rem;
+    }  
+    
+    .what .what-up {
+        
+    }
+    
+    .what .what-down {
+        padding: 3.7rem 4.1rem;
+        margin: 1.3rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(42.3141px);
+        border-radius: 1.67581px;
+        border: 1px solid;
+        position: relative;
+        bottom: 23rem;
+        width: 36rem;
+        /* height: 23rem; */
+        left: 54rem;
+    }
+    
+    .what-down .what-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 44.5093px;
+        line-height: 60px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        position: relative;
+        top: 3px;
+        left: 5px;
+    }
+    
+    .what-down .what-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20.0292px;
+        line-height: 36px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        position: relative;
+        bottom: 1px;
+        left: 5px;
+    
+    }
+    
+    .what-down .what-line {
+        display: flex;
+        position: relative;
+        top: 3px;
+        left: 1px;
+    }
+    
+    .what-down .what-line .what-watch {
+        display: flex;
+        padding-left: 11%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .what-down .what-line .what-button {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .subscribe {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 12.5rem 7rem;
+        /* padding-bottom: 7.2rem; */
+        color: white;
+        background-color: #241043;
+    }
+    
+    .subscribe .subscribe-title {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 39.7965px;
+        line-height: 50px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        position: relative;
+        top: -5px;
+        left: -8px;
+    }
+
+    .subscribe .subscribe-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.8983px;
+        line-height: 35px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        position: relative;
+        top: 7px;
+        left: -6px;
+    
+    }
+
+    .subscribe .subscribe-block  {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+
+
+    .subscribe .subscribe-button {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    .subscribe .subscribe-button input {
+        background: #F4F5F7;
+        border-radius: 5.5273px 0px 0px 5.5273px;
+        padding: 2.3% 0%;
+        position: relative;
+        top: 39px;
+        left: -7px;
+        width: 274.15px;
+    
+    }
+    
+    ::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.4764px;
+        line-height: 27px;
+        font-feature-settings: 'salt'; 
+        color: #474A57;
+        position: relative;
+        bottom: 2px;
+        left: 16px;
+    }
+    
+    .subscribe .subscribe-button a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15.4764px;
+        line-height: 16px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #FFFFFF;
+        background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 3.18009px 77.1171px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(76.3221px);
+        border-radius: 0px 5.5273px 5.5273px 0px;
+        text-decoration: none;
+        padding: 3% 6%;
+        border: 1px solid rgba(255, 166, 250, 1);
+        position: relative;
+        top: 39px;
+        left: -1px;
+    }
+    
+    .subscribe-bg {
+        /* margin-top: 39%; */
+    }
+    
+    .subscribe hr {
+        /* margin: 33% 0 0 0; */
+        
+    }
+    
+    .link {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        /* padding: 1.5rem; */
+        /* padding-top: 0.4rem; */
+        background-color: #241043;
+        position: relative;
+        bottom: -4px;
+        right: -81px;
+    }
+    
+    .link .link-title {
+        display: flex;
+        align-items: center;
+    }
+    
+    .link .link-title img {
+        position: relative;
+        bottom: 11px;
+        right: 1px;
+    }
+    
+    .link .link-title .link-big {
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.8983px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    
+    .link .link-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.4764px;
+        line-height: 27px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #D9DBE1;
+        position: relative;
+        top: 15px;
+        left: 3px;
+        width: 281.89px;
+    }
+    
+    .link .link-img {
+        display: flex;
+        /* justify-content: space-between; */
+        position: relative;
+        top: 24px;
+        left: 2px;
+    }
+    
+    .link .link-img .link-icon {
+        background: #3f2c63;
+        /* opacity: 0.1; */
+        padding: 1px 6px;
+        border-radius: 23px;
+        margin-left: 1.1rem;
+        position: relative;
+        /* top: 24px; */
+        right: 17px;
+    }
+    
+    .link .link-img img {
+        position: relative;
+        bottom: 2px;
+        left: 0px;
+        
+    }
+
+    footer {
+        background-color: #241043;
+        display: flex;
+        align-items: flex-start;
+        /* justify-content: space-evenly; */
+        padding: 4rem 0;
+    }
+
+    .footer-item {
+        display: flex;
+        position: relative;
+        bottom: 1px;
+        right: -172px;
+        gap: 33.16px;
+    }
+
+    .footer-block {
+        
+        width: 176.87px;
+        /* height: 31px; */
+
+    }
+
+    .footer-block .footer-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19.8983px;
+        line-height: 34px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        position: relative;
+        bottom: 2px;
+        right: -1px;
+    }
+
+    .footer-block p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.4764px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+
+        font-feature-settings: 'salt' on, 'liga' off;
+
+        /* Text / Gray 300 */
+
+        color: #D9DBE1;
+    }
+    
+    
+    .final {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 1.5rem;
+        padding-top: 0;
+        background-color: #241043;
+        
+    }
+    
+    .final p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.4764px;
+        line-height: 27px;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #D9DBE1;
+        
+    }
+    
+    .final .final-up {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .final .terms {
+        position: relative;
+        bottom: -1px;
+        left: 16px;
+    }
+    
+    .final .policy {
+        position: relative;
+        bottom: -1px;
+        left: -33px;
+    }
+    
+    .final .copyright {
+        position: relative;
+        bottom: -23px;
+        left: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

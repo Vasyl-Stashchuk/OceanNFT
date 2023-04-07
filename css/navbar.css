@@ -1,0 +1,257 @@
+@media screen and (min-width: 1250px) {
+
+
+    
+    nav {
+      padding: 3% 19%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #241043;
+      padding-bottom: 4.6rem;
+  }
+  
+  nav a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    line-height: 25px;
+  
+    color: rgba(255, 255, 255, 0.6);
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+      display: flex;
+      color: gray;
+      text-decoration: none;
+      /* padding: 0 1%; */
+  }
+  
+  nav .list img  {
+    /* filter: invert(); */
+    /* height: 2rem; */
+    /* width: 2rem; */
+  }
+  
+  nav i {
+      color:white;
+  }
+  
+  .logo {
+    position: relative;
+    top: 5px;
+    left: -198px;
+  }
+  
+  .logo img {
+    height: 26.81px;
+    position: relative;
+    top: -1px;
+    left: 5px;
+  }
+  
+  .logo p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 19.8983px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  
+  .list {
+      list-style: none;
+      display: flex;
+      gap: 67px;
+      align-items: center;
+      position: relative;
+      top: 2px;
+      left: -256px;
+  }
+  
+  .list .list-list {
+    display: flex;
+      gap: 67px;
+      align-items: center;
+      position: relative;
+      top: 2px;
+      left: 28px;
+  }
+  
+  .list .list-img {
+    display: flex;
+    position: relative;
+    top: 2px;
+      left: 448px;
+      gap: 44px;
+  
+  }
+  
+  #toggler,
+  nav label {
+      display: none;
+      /* transition: 1s; */
+  }
+      
+  
+      .active {
+          background-color: #1F1F1F;
+          padding: 31px 2%;
+          font-weight: 600;
+      }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 1250px) {
+  
+    nav {
+      padding: 3% 7%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #241043;
+      /* padding-block: 15px; */
+      /* height: 80px; */
+  }
+  
+  nav a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.1279px;
+    line-height: 25px;
+  
+    color: rgba(255, 255, 255, 0.6);
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: flex;
+    color: gray;
+    text-decoration: none;
+    /* padding: 0 1%; */
+  }
+  
+  nav .list img  {
+    /* filter: invert(); */
+    /* height: 2rem; */
+    /* width: 2rem; */
+  }
+  
+  nav i {
+      color:white;
+  }
+  
+  .logo {
+    position: relative;
+    top: -1px;
+    left: -5px;
+  }
+  
+  .logo img {
+    /* width: 13.44px; */
+    height: 22.47px;
+    position: relative;
+    top: -2px;
+    left: -1px;
+  }
+  
+  .logo p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.1279px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  
+  .list {
+      list-style: none;
+      display: flex;
+      gap: 1px;
+      align-items: center;
+      position: relative;
+      top: 1px;
+      left: 1px;
+  }
+  
+  .list .list-list {
+    display: flex;
+    flex-direction: column;
+      gap: 1px;
+      align-items: center;
+      position: relative;
+      /* top: 2px; */
+      left: 1px;
+  }
+  
+  .list .list-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    gap: 1px;
+  
+  }
+  
+  #toggler,
+  nav label {
+      display: none;
+      /* transition: 1s; */
+  }
+  
+      
+      .active {
+          /* background-color: #1F1F1F; */
+          /* padding: 31px 2%; */
+          font-weight: 800;
+      }
+      
+      
+      .menu {
+          width: 100%;
+          max-height: 0;
+          overflow: hidden;
+          
+      }
+      .list {
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          
+      }
+      nav label {
+          display: inline-flex;
+          align-items: center;
+          cursor: pointer;
+          color: white;
+          position: relative;
+          top: -1px;
+          left: -2px;
+      }
+      #toggler:checked ~ .menu {
+          max-height: 100%;
+          
+      }
+  
+      .active {
+          /* background-color: #1F1F1F; */
+          /* padding: 31px 2%; */
+          font-weight: 500;
+      }
+  }
