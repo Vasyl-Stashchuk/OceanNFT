@@ -86,11 +86,11 @@ swiper-container {
   
   /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
-    background-color: #241043;;
-    display: none;
-    overflow: hidden;
-    color: white;
+  padding: 0 18px;
+  background-color: #241043;;
+  display: none;
+  overflow: hidden;
+  color: white;
 }
 
 .accord {
@@ -117,8 +117,22 @@ swiper-container {
   color: #FFFFFF;
   position: relative;
   bottom: -1px;
-  /* left: 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
 }
+
+.accord .accordion .accord-img { 
+  position: relative;
+  bottom: -2px;
+  left: -21px;
+  /* transform: scale(1); */
+}
+
+.accord .accordion .scale { 
+  transform: scale(-1);
+}
+
 
 .accord hr {
   margin: 0.1rem 0 0 0;
@@ -129,4 +143,27 @@ swiper-container {
 }
 
 
+.gray {
+  background: #FFFFFF99;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.pinq {
+  background: #FF56F6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.rainbow {
+  background: linear-gradient(268deg, #42A6E3 2.33%, #FF56F6 101.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent; 
+}
 
