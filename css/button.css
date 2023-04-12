@@ -4,7 +4,6 @@
     width: 133.31px; 
     height: 34.21px; 
     background: linear-gradient(92.23deg, #FFA6FA 100%, #3C79D4 100%);
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     box-sizing: border-box;
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     border-radius: 1.17972px;
@@ -42,14 +41,12 @@
 
 
 
-
 .top-button {
     display: inline-block;
     position: relative;
     width: 250.83px; 
     height: 65.12px; 
     background: linear-gradient(92.23deg, #FFA6FA 100%, #3C79D4 100%);
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     box-sizing: border-box;
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     border-radius: 1.17972px;
@@ -62,7 +59,6 @@
     left: 1px;
     width: 248.83px;
     height: 63.12px;   
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     background-color: #241043;
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     border-radius: 1.17972px;

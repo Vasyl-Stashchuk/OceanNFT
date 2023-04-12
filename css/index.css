@@ -68,21 +68,22 @@ hr {
 .first-screen .first-button .amaz-button {
     display: inline-block;
     position: relative;
-    width: 133.31px; 
-    height: 34.21px; 
-    background: linear-gradient(92.23deg, #FFA6FA 100%, #3C79D4 100%);
+    width: 133.31px;
+    height: 34.21px;
+    background: linear-gradient(128deg, #FFA6FA 50%, #3C79D4 100%);
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     box-sizing: border-box;
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     border-radius: 1.17972px;
 }
 
+
 .first-screen .first-button .amaz-button a {
     position: absolute;
     top: 2px; 
     left: 2px; 
-    width: 133.31px; 
-    height: 34.21px;     
+    width: 128.31px;
+    height: 30.21px;    
     background: linear-gradient(265deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     clip-path: polygon(0% 100%, 0 29%, 16% 0, 100% 0%, 100% 74%, 86% 100%);
     border-radius: 1.17972px;
@@ -96,13 +97,13 @@ hr {
     color: #FFFFFF;
     position: absolute;
     left: 28px;
-    bottom: -2px;
+    bottom: -5px;
 }
 
 .first-screen .first-button .amaz-button img {
     position: absolute;
     left: 89px;
-    bottom: 11px;
+    bottom: 13px;
     max-width: 21%;
 }
 
@@ -117,21 +118,25 @@ hr {
     background-clip: text;
     text-fill-color: transparent;
     margin-left: 1.3rem;
+    position: relative;
+    left: 0px;
+    bottom: 2px;
 }
 
-.first-screen .first-button {
-
-}
 
 
 .first-screen .first-mid {
-    padding: 1.4rem 2rem;
+    padding: 1rem 0;
     display: flex;
-    /* justify-content: space-between; */
+    position: relative;
+    top: 6px;
+    left: 32px;
+    width: 200px;
+    gap: 65px;
 }
 
 .first-screen .mid-info {
-    /* padding-right: 3rem; */
+    /* padding: 0 2%; */
 }
 
 .first-screen .first-mid .mid-up {
@@ -167,7 +172,7 @@ hr {
 
 
 .first-screen .first-down {
-    padding: 0.1rem 2rem;
+    padding: 0.9rem 2rem;
     /* display: flex; */
     /* justify-content: space-between; */
 }
@@ -186,7 +191,7 @@ hr {
 }
 
 .first-screen .first-down img {
-    max-width: 100%;
+    /* max-width: 100%; */
     /* aspect-ratio: 3/2; */
     /* object-fit: contain; */
     /* mix-blend-mode: ; */
@@ -202,11 +207,12 @@ hr {
 
 
 .first-screen .first-block .block-pic {
-    clip-path: polygon(0% 20%, 39% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0% 18%, 32% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .first-screen .first-block .block-pic img {
-    padding-top: 2rem;
+    padding-top: 1.3rem;
+    
 }
 
 .first-screen .first-block .block-info {
@@ -244,8 +250,8 @@ hr {
     align-items: center;
     color: #FFFFFF;
     position: relative;
-    top: 13px;
-    left: 6px;
+    top: 14px;
+    left: 7px;
 }
 
 .block-info .info-left .info-acc {
@@ -277,7 +283,7 @@ hr {
     left: 6px;
 }
 
-.block-info  .info-rev {
+.block-info .info-left .info-rev {
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 600;
@@ -290,6 +296,21 @@ hr {
     position: relative;
     top: 19px;
     left: 7px;
+}
+
+.block-info .info-right .info-rev {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.6579px;
+    /* line-height: 34px; */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    position: relative;
+    top: 19px;
+    left: 32px;
 }
 
 .block-info .info-left .info-price {
@@ -316,7 +337,8 @@ hr {
     /* line-height: 12px; */
     position: relative;
     bottom: 1px;
-    left: 7px;
+    left: 6px;
+
 }
 
 .block-info .info-left .info-price .price-right {
@@ -358,7 +380,7 @@ hr {
     line-height: 34px;
     position: relative;
     bottom: 1px;
-    right: 2px;
+    right: -10px;
     padding: 0px 25%;
 }
 
@@ -370,7 +392,7 @@ hr {
     line-height: 34px;
     position: relative;
     bottom: 0px;
-    right: 5px;
+    right: -7px;
     padding: 0px 13%;
 }
 
@@ -384,13 +406,23 @@ hr {
     /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     /* border-radius: 50px 0px ; */
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 6% 22%;
+    padding: 5% 6%; 
     text-decoration: none;
     color: white;
     border-radius: 2.13158px;
+    width: 115.11px;
+    position: relative;
+    left: 11px;
+    bottom: -1px;
 }
 
 
+.block-info .info-right .info-button img {
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+    max-width: 23%;
+}
 
 
 
@@ -476,8 +508,8 @@ hr {
     color: #FFFFFF;
 
     position: relative;
-    top: 22px;
-    left: 13px;
+    top: 20px;
+    left: 14px;
 }
 
 .block-nft .info-left .info-acc {
@@ -487,6 +519,14 @@ hr {
     left: 12px;
     align-items: baseline;
     max-height: 2rem;
+}
+
+.block-nft .info-left .info-acc img {
+    max-width: 19%;
+    position: relative;
+    top: -1px;
+    left: 1px;
+
 }
 
 .block-nft .info-left .info-acc p {
@@ -507,9 +547,10 @@ hr {
 }
 
 .block-nft .info-left .info-acc .info-veryf {
+    max-width: 8%;
     position: relative;
-    bottom: 7px;
-    left: 14px;
+    top: -9px;
+    left: 17px;
 
 }
 
@@ -524,8 +565,8 @@ hr {
     color: #FFFFFF;
     opacity: 0.7;
     position: relative;
-    top: 14px;
-    left: 12px;
+    top: 13px;
+    left: 14px;
 }
 
 .block-nft .info-right  .info-rev {
@@ -540,6 +581,7 @@ hr {
     opacity: 0.7;
     position: relative;
     top: 19px;
+    left: 29px;
 }
 
 .block-nft .info-left .info-price {
@@ -567,8 +609,8 @@ hr {
 
     color: #FFFFFF;
     position: relative;
-    bottom: 1px;
-    left: 7px;
+    bottom: 7px;
+    left: 4px;
 }
 
 .block-nft .info-left .info-price .price-right {
@@ -582,7 +624,9 @@ hr {
     color: #FFFFFF;
     opacity: 0.7;
     position: relative;
-    left: 18px;
+    left: 16px;
+    top: -6px;
+
 }
 
 
@@ -619,8 +663,8 @@ hr {
     color: #FFFFFF;
 
     position: relative;
-    top: 13px;
-    right: 9px;
+    top: 12px;
+    right: -6px;
     padding: 0px 33%;
 }
 
@@ -639,9 +683,9 @@ hr {
 
     opacity: 0.7;
     position: relative;
-    bottom: 2px;
-    right: 11px;
-    padding: 0px 23%;
+    bottom: 3px;
+    right: -4px;
+    padding: 0px 20%;;
 }
 
 .block-nft .info-right .info-button {
@@ -657,8 +701,17 @@ hr {
     backdrop-filter: blur(81.6038px);
     position: relative;
     /* bottom: 2px; */
-    right: 8px;
-    padding: 10% 27%;
+    right: -8px;
+    padding: 7% 6%;
+    width: 107.99px;
+
+}
+
+.block-nft .info-right .info-button img {
+    position: relative;
+    left: 15px;
+    bottom: 0px;
+    max-width: 23%;
 }
 
 .top-nft .center-button {
@@ -736,10 +789,32 @@ hr {
     color: #FFFFFF;
 }
 
-.collect .collect-select {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.collect .collect-block {
+    display: flex;
+    flex-direction: column;
 }
+
+
+.collect .collect-select {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -1px;
+    right: -3px;
+}
+
+.collect .collect-select .select-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.collect .collect-select .select-left {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1.7rem; */
+}
+
 
 .collect .collect-select a  {
 
@@ -750,12 +825,12 @@ hr {
     font-style: normal;
     font-weight: 700;
     font-size: 10.9922px;
-    line-height: 14px;
+    line-height: 17px;
     text-align: center;
     position: relative;
     bottom: 4px;
     right: 2px;
-
+    width: 152.52px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -780,14 +855,26 @@ hr {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 7px;
-    left: 3px;
+    bottom: -22px;
+    left: 2px;
 }
 
 .collect .view-all {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    left: -8px;
+    bottom: 345px;
 }
+
+.collect .view-all img {
+    position: relative;
+    left: 5px;
+    bottom: -2px;
+    max-width: 7%;
+}
+
 .collect .view-all p {
     font-family: 'Orbitron';
     font-style: normal;
@@ -821,14 +908,20 @@ hr {
     color: #FFFFFF;
     padding: 1.5rem 1.6rem;
     padding-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .explore .explore-block {
-    border: 2px solid rgba(255, 255, 255, 0.28);
+    position: relative;
+    right: -24px;
+}
+
+.explore .explore-block {
+    /* border: 2px solid rgba(255, 255, 255, 0.28);
     margin: 4% 1% 0% 0%;
     position: relative;
     right: 10px;
-    top: 1px;
+    top: 1px; */
 }
 
 .explore .explore-up {
@@ -848,13 +941,13 @@ hr {
 
 .explore .explore-down .explore-icon {
     position: relative;
-    bottom: 71px;
-    left: 2px;
+    bottom: 74px;
+    left: 26px;
     height: 44px;
 }
 
 .explore .explore-down .explore-icon img {
-    max-width: 99%;
+    max-width: 70%;
 }
 
 .explore .explore-down .explore-name {
@@ -865,7 +958,7 @@ hr {
     /* line-height: 32px; */
     color: #FFFFFF;
     position: relative;
-    top: 3px;
+    top: 1px;
     left: 2px;
     height: 3px;
 }
@@ -883,14 +976,15 @@ hr {
     line-height: 32px;
     color: #FFB1EE;
     position: relative;
-    top: 2px;
-    left: 7px;
+    top: 0px;
+    left: 6px;
 }
 
 .explore .explore-down .explore-veryf img {
     position: relative;
-    bottom: 7px;
+    bottom: 9px;
     left: 10px;
+    width: 10.97px;
 }
 
 .explore .explore-down .explore-folow {
@@ -924,6 +1018,8 @@ hr {
     font-size: 21.9417px;
     margin-bottom: 0;
     color: #FFFFFF;
+    position: relative;
+    bottom: 2px;
 }
 
 
@@ -935,7 +1031,7 @@ hr {
     color: #FFFFFF;
     opacity: 0.7;
     position: relative;
-    bottom: 5px;
+    bottom: 7px;
 }
 
 .explore .explore-down .explore-button {
@@ -948,7 +1044,7 @@ hr {
     transform: matrix(-1, 0, 0, 1, 0, 0);
     /* border-radius: 50px 0px ; */
     border: 1px solid rgba(255, 166, 250, 1) ;
-    padding: 0.5rem 4rem;
+    padding: 0.6rem 4rem;
     text-decoration: none;
     color: white;
     font-family: 'Rajdhani';
@@ -958,8 +1054,9 @@ hr {
     line-height: 18px;
     color: #FFFFFF;
     position: relative;
-    top: 6px;
+    top: 4px;
     left: 4px;
+
 }
 
 .explore .center-button {
@@ -1013,6 +1110,21 @@ hr {
 
 }
 
+.seller .seller-table {
+        /* display: flex; */
+        /* padding: 0 2%; */
+    }
+
+.seller .seller-table .seller-block-mobile {
+        /* padding: 1.1rem; */
+        position: relative;
+    }
+
+    .seller .seller-table .seller-block-pc {
+        display: none;
+        
+    }
+
 .seller .seller-item {
     display: flex;
     flex-direction: row;
@@ -1044,6 +1156,7 @@ hr {
     position: relative;
     top: 1px;
     left: 3px;
+    width: 50.63px;
 }
 
 
@@ -1105,10 +1218,12 @@ hr {
 
 }
 
-.seller .center-button {
+.seller .center-button .explore-all {
     display: none;
+}
     
-    /* padding: 6% 2%; */
+.seller .center-button {
+    padding: 6% 2%;
 
 }
 
@@ -1296,6 +1411,7 @@ hr {
     background-color: #241043;
 }
 
+
 .link .link-title {
     display: flex;
     align-items: center;
@@ -1355,6 +1471,10 @@ hr {
     
 }
 
+ .footer-item {
+    display: none;
+}
+
 
 .final {
     display: flex;
@@ -1393,6 +1513,10 @@ hr {
     position: relative;
     bottom: -1px;
     left: -33px;
+}
+
+.final .sitemap {
+    display: none; 
 }
 
 .final .copyright {
