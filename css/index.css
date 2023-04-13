@@ -932,7 +932,7 @@ body {
 .seller {
     display: flex;
     flex-direction: column;
-    padding: 17% 7% 24%;
+    padding: 18% 7% 24%;
     color: white;
     background-color: #241043;
 }
