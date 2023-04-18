@@ -22,7 +22,9 @@ body {
 }
 
 .first-screen .first-up {
-    padding: 2rem 2rem 0;
+    /* padding: 2rem 2rem 0; */
+    padding: 6.4rem 2rem 0;
+
 }
 
 .first-screen .first-up .up-big {
@@ -655,7 +657,7 @@ body {
     color: #FFFFFF;
     position: absolute;
     left: 28px;
-    bottom: -2px;
+    bottom: -7px;
 }
 
 .top-button img {
@@ -673,7 +675,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1.4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 5.2rem;
     color: white;
     background-color: #241043;
 }
@@ -951,7 +953,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 19.2314px;
-    line-height: 24px;
+    line-height: 21px;
     color: #FFFFFF;
     position: relative;
     bottom: 2px;
@@ -1188,7 +1190,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26.2703px;
-    line-height: 33px;
+    line-height: 34px;
     font-feature-settings: 'salt' on, 'liga' off;
     color: #FFFFFF;
     position: relative;
