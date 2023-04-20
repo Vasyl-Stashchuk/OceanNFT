@@ -877,6 +877,12 @@
         top: 30px;
     }
     
+    .explore .explore-up img {
+        /* width: 33rem; */
+    }
+    
+    
+    
     .explore .explore-down {
         display: flex;
         flex-direction: column;
@@ -1052,6 +1058,7 @@
     }
 
     .seller .seller-table {
+        justify-content: center;
         display: flex;
         padding: 0 2%;
     }
@@ -1221,6 +1228,11 @@
         background-color: #241043;
         height: 40rem;
     }  
+
+    .what .what-up img {
+        max-width: 100%;
+        width: 120rem;
+    }
     
     .what .what-down {
         padding: 3.7rem 4.1rem;

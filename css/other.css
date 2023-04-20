@@ -151,3 +151,8 @@ swiper-container {
   text-fill-color: transparent; 
 }
 
+.new {
+  position: relative;
+  bottom: 103px;
+  left: 270px;
+}
