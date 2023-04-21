@@ -12,7 +12,8 @@ html {
 body {
     
     background-color: #241043;
-    overflow-x: hidden;   
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */   
 }
 
 @media (max-width: 500px) {
