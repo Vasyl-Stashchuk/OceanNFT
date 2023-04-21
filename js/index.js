@@ -30,3 +30,19 @@ for (i = 0; i < acc.length; i++) {
 
 
 
+
+var acc = document.getElementsByClassName("select-button");
+var i;
+  
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+  
+    var activeElement = document.querySelector(".active");    
+
+    activeElement.classList.remove("active");
+
+    this.classList.toggle("active");
+   
+  });
+}
